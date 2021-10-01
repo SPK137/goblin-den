@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Goblin Den
+---------------
+## Description
+
+A 3D Dice roller made with [Three.js](https://github.com/mrdoob/three.js/) and [Cannon.js](https://github.com/schteppe/cannon.js). <br/>
+Credits for random dice algorithm goes to http://a.teall.info/dice/
 
 ## Getting Started
 
