@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
-import { MeshProps, useFrame } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
+import { Mesh } from "three";
 
 export const Box = ({ ...props }) => {
   // This reference will give us direct access to the THREE.Mesh object
-  const ref = useRef<MeshProps>();
+  const ref = useRef<Mesh>();
   // Set up state for the hovered and active state
   const [hovered, setHover] = useState(false);
   const [active, setActive] = useState(false);
