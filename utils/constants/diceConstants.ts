@@ -132,3 +132,5 @@ export const diceInertia = {
 };
 
 export const scale = 100;
+
+export const degreeToRadian = (degree: number) => Math.PI * (degree / 180);
