@@ -1,7 +1,6 @@
 import React, { useMemo, useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import { DoubleSide, Mesh } from "three";
-import { convertToTriangle } from "../../utils/dice/geometry";
 
 export const D4 = ({ ...props }) => {
   // This reference will give us direct access to the THREE.Mesh object
