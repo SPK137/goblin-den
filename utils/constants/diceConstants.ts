@@ -85,7 +85,8 @@ export const materialOptions = {
 export const physicalMaterialOptions = {
   specular: "#172022",
   color: "#f0f0f0",
-  shininess: 40,
+  metalness: 0.5,
+  roughness: 0.5,
   flatShading: true,
 };
 
